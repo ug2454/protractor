@@ -3,7 +3,7 @@ Feature: Calculator
     Scenario Outline: Test all calculator scenario
 
         Given Enter first and second number <number1> <number2>
-        When select the "<operator>"
+        When select the '<operator>'
         Then the result should be <result>
 
         Examples:
