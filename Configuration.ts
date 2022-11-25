@@ -1,4 +1,4 @@
-import {Config, Capabilities} from "protractor";
+import {Config} from "protractor";
 
 export let config: Config={
     directConnect:true,
